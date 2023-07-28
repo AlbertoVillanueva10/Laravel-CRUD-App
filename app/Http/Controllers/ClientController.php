@@ -15,7 +15,7 @@ class ClientController extends Controller
     public function index()
     {
         //Para retornar una vista desde un controlador, se tiene que hacer lo siguiente
-        return view('product.index');
+        return view('client.index');
     }
 
     /**
