@@ -14,7 +14,8 @@ class ClientController extends Controller
      */
     public function index()
     {
-        //
+        //Para retornar una vista desde un controlador, se tiene que hacer lo siguiente
+        return view('client.index');
     }
 
     /**
@@ -25,6 +26,7 @@ class ClientController extends Controller
     public function create()
     {
         //
+        return view('client.create');
     }
 
     /**

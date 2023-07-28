@@ -1,5 +1,8 @@
 <?php
 
+
+//Clase importada de la ruta debajo, de este modo al ejecutar ya reconoce la ruta
+use App\Http\Controllers\ClientController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +19,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+//Creando nuestra ruta de un formulario resource, nomre y controlador y se importa la clase
+//Con esta linea se crean diferentes rutas para accedera diferentes metodo
+
+Route::resource('client', ClientController::class);
