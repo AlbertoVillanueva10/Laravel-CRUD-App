@@ -5,7 +5,7 @@
 <div class="container">
     <h1>Listado clientes</h1>
     {{-- ayuda de laravel, con instrucción para acceder a client.index --}}
-    <a href="{{ route('client.create') }}" class="btn btn-primary">Create Client</a>
+    <a href="{{ route('product.create') }}" class="btn btn-primary">Create Product</a>
     
     <table class="table">
         <thead>

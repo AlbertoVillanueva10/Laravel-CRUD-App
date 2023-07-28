@@ -24,4 +24,4 @@ Route::get('/', function () {
 //Creando nuestra ruta de un formulario resource, nomre y controlador y se importa la clase
 //Con esta linea se crean diferentes rutas para accedera diferentes metodo
 
-Route::resource('client', ClientController::class);
+Route::resource('product', ClientController::class);
